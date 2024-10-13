@@ -4,7 +4,6 @@ class Book:
         self.title = title
         self.author = author
         self.year = year
-        print(f"Book '{self.title}' created.")
 
     def __del__(self):
         """Destructor to print a message when the object is deleted."""
